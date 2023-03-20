@@ -214,6 +214,7 @@ The next customization on the workflow will be to stop generating stylesheet and
 config.generators do |g|
   g.orm             :active_record
   g.template_engine :erb
+  g.stylesheets     false
   g.test_framework  :test_unit, fixture: false
 end
 ```
